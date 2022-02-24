@@ -1,0 +1,55 @@
+/* 1. Posicionamiento
+2. Modelo caja (Box model)
+3. Tipografía
+4. Visuales
+5. Otros */ 
+:root{
+    --texto: #374151;
+    --gris-neutral400: #9CA3AF;
+    --gris-neutral300: #D1D5DB;
+    --gris-neutral100: #F3F4F6;
+    --blanco-neutral50: #F9FAFB;
+    --titulos:#75E3EA;
+    --seleccion: #ECFEFF;
+    --rojo: #E30613;
+    --save: #1cca0080;
+    --edit: #e3a5068c;
+    --delete: #e306138c;
+    --download: #1db5beb3;
+    --user: #f81c85b3;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'DM Sans', sans-serif ;
+}
+/* TOP */
+header{
+    width: 100%;
+    background: #333;
+    overflow: hidden;
+}
+.topnav a{
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.7rem;
+}
+.topnav a.active{
+    background-color: var(--rojo);
+    color:#ffffff; 
+}
+.topnav .icon {
+    display: none;
+}
+
+main{
+    align-content: center;
+
+    background-color:papayawhip;
+}
