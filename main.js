@@ -1,8 +1,8 @@
 function topNavFunction(){
     let clickNav = document.getElementById('topNavClick');
-    if(clickNav.topnav === 'topnav'){
+    if(clickNav.className === 'topnav'){
         clickNav += 'responsive';
     }else{
-        clickNav.topnav = 'topnav';
+        clickNav.className = 'topnav';
     }
 }
