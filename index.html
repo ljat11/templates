@@ -20,13 +20,13 @@
     <!-- TopNav -->
     <header>
         <div class="topnav" id="topNavClick">
-                <a class='active' href="admind">Admind</a>
+                <a class='active' href="">Admind</a>
             <a href="javascript:void(0);" class="icon" onclick="topNavFunction()">
                 <i class="fa fa-bars"></i>
         </div>
     </header>
 <!-- SideNav -->
-<main>
+
         <aside class="sideNav">
                 <a href="">Payment</a>
                 <a href="">Ordenes</a>
@@ -42,47 +42,78 @@
                 <a href="">Informacion de cocinas</a>
         </aside>
 
- <div class="container">
+    <main>
+    <div class="container">
 
                                         <!-- CRUD -->
                                         
                                         <!-- CRUD -->
 
-  <div class="row">
-      <div class="col-5 p-0 bg-primary">
-          <div class="bg-info">Payment</div>
-          <div class="payment-text" >Payment Methods</div>
-          <div class="dropdown">
-            <button class="dropbtn">Seleccion</button>
-            <div class="dropdown-content">
-              <a href="#">Stripe</a>
-              <a href="#">Culqui</a>
-              <a href="#">Authorize.net</a>
-            </div>
-          </div>
-          <div class="payment--text">Configuraciones generales</div>
-          <div class="payment--text">Sistema de comisiones</div> <br>
-
-          <div class="bg-info">Ordenes</div> <br>
-          <div class="bg-info">Comss</div>
-      </div>
-      <div class="col-6 offset-1  bg-success p-0">
-          <div class="container-fuid">
-              <div class="row">
-                  <div class="col-10">
-                      <div class="bg-info">Reportes</div> <br>
-                  </div> 
-                  <div class="col-12">
-                    <div class="bg-info">Invoices</div>
+        <div class="row">
+            <div class="col-5 p-0 mt-4">
+                <div class="container-payment">
+                    <div class="bg-info title">Payment</div>
+                    <div class="subtitle-superior">Payment Methods</div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Seleccion</button>
+                        <div class="dropdown-content">
+                        <a href="#">Stripe</a>
+                        <a href="#">Culqui</a>
+                        <a href="#">Authorize.net</a>
+                        </div>
                     </div>
-              </div>
-          </div>
-      </div>
-    
-  </div>
+                    <div class="subtitle">Configuraciones generales</div>
+                        <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni suscipit et deleniti aliquam perferendis, eveniet placeat enim, quidem earum maiores in adipisci reiciendis recusandae odit aliquid dolorem qui iste hic!</p>
+                    <div class="subtitle">Sistema de comisiones</div> 
+                        <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia ex dolorem quia inventore autem sequi suscipit non omnis fugit repellendus iure aperiam doloremque, similique amet hic, voluptate quo. Commodi, hic.</p>
+                    </div><br>
 
- </div>
-</main>
+                <div class="container-orders">
+                    <div class="title">Ordenes</div>
+                    <div class="subtitle-superior">Todas las Ordenes</div>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea pariatur amet dolorem.</p>
+                   
+                    <div class="subtitle">Orders canceladas</div>
+                          <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea pariatur amet dolorem.</p>
+                    <div class="subtitle">Status</div>
+                          <p class="text">Lorem ipsum dolor sit amet.</p>
+                </div> <br>
 
+                <div class="container-comms">
+                    <div class="title">Comms</div>  
+                        <div class="subtitle-superior">SMS</div>
+                            <p class="text">Lorem ipsum dolor sit amet.</p>
+                        <div class="subtitle">Calls</div>
+                            <p class="text">Lorem ipsum dolor sit amet.</p>
+                        <div class="subtitle">SMS Promotions</div>
+                          <p class="text">Lorem ipsum dolor sit amet.</p>
+                    <div class="subtitle">Fax</div>
+                          <p class="text">Lorem ipsum dolor sit amet.</p> 
+                </div>
+            </div>
+
+            <div class="col-6 offset-1  bg-success p-0 mt-4 ">
+                <div class="container-fuid">
+                    <div class="row">
+                        <div class="col-10 container-reports">
+                            <div class="bg-info title">Reportes</div>
+                                <div class="subtitle-superior">Comerciantes registrados</div>
+                                <div class="subtitle">Pagos a comercios</div>
+                                <div class="subtitle">Ventas de los comercios</div>
+                                <div class="subtitle">Resumen de venta de los comercios</div>
+                                <div class="subtitle">Resumen de los Booking</div>
+                        </div> <br>
+                        <div class="col-12 container-invoices">
+                            <div class="bg-info title">Invoices</div>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum quis, et labore esse perferendis recusandae ea at quaerat, amet reprehenderit incidunt ipsa sint, aperiam fuga assumenda odit laborum aliquid adipisci.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+    </main>
 </body>
 </html> 
