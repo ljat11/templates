@@ -17,17 +17,17 @@
     <Script src="main.js"></Script>
 </head>
 <body>
+
     <!-- TopNav -->
     <header>
-        <div class="topnav" id="topNavClick">
+        <nav class="topnav" id="topNavClick">
                 <a class='active' href="">Admind</a>
             <a href="javascript:void(0);" class="icon" onclick="topNavFunction()">
                 <i class="fa fa-bars"></i>
-        </div>
+        </nav>
     </header>
 <!-- SideNav -->
-        
-        <aside class="sideNav">
+        <nav class="sideNav">
                 <a href="">Payment</a>
                 <a href="">Ordenes</a>
                 <a href="">Comms</a>
@@ -40,14 +40,12 @@
                 <a href="">Ajustes Generales</a>
                 <a href="">Users</a>
                 <a href="">Informacion de cocinas</a>
-        </aside>
+        </nav>
 <main>
     <div class="container">
-
                                         <!-- CRUD -->
                                         
                                         <!-- CRUD -->
-
         <div class="row">
             <div class="col-5 p-0 mt-4">
                 <div class="container-payment">
@@ -70,7 +68,7 @@
                         <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia ex dolorem quia inventore autem sequi suscipit non omnis fugit repellendus iure aperiam doloremque, similique amet hic, voluptate quo. Commodi, hic.</p>
                     </div>
                     <div>
-                        <button type="button" class="btn btn-success">Save</button>
+                        <button type="button" class="btn  btn-success ">Save</button>
                     </div>
                     </div><br>
 
@@ -78,7 +76,7 @@
                     <div class="title">Ordenes</div>
                         <div>
                             <div class="subtitle-superior">Todas las Ordenes</div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea pariatur amet dolorem.</p>
+                            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea pariatur amet dolorem.</p>
                         </div>
                         
                         <div>
@@ -112,9 +110,20 @@
                             <div>
                                 <button type="button" class="btn btn-success">Save</button>
                             </div>
-                </div>
-            </div>
+                </div> <br>
 
+                <div class="container-crono">
+                    <div class="title">CronoJobs</div>  
+                            <div>
+                                <div class="subtitle-superior">Celery</div>
+                            </div>
+                            <div>
+                                <div class="subtitle mt-2">App schudeles</div>
+                            </div>
+                </div> <br>
+
+            </div>
+            <!-- lado derecho de columns -->
             <div class="col-6 offset-1 p-0 mt-4 ">
                 <div class="container-fuid">
                     <div class="row">
@@ -122,85 +131,126 @@
                             <div class=" title">Reportes</div>
                             <div>
                                 <div class="subtitle-superior">Comerciantes registrados</div>
-                                <p>Lorem ipsum dolor sit amet.</p>
+                                <p class="text">Lorem ipsum dolor sit amet.</p>
                             </div>
                             <div>
                                 <div class="subtitle ">Pagos a comercios</div>
-                                <p>Lorem ipsum dolor sit amet.</p>
+                                <p class="text">Lorem ipsum dolor sit amet.</p>
                             </div>
                             <div>
                                 <div class="subtitle">Ventas de los comercios</div>
-                                <p>Lorem ipsum dolor sit amet.</p>
+                                <p class="text">Lorem ipsum dolor sit amet.</p>
                             </div>
                             <div>
                                 <div class="subtitle">Resumen de venta de los comercios</div>
-                                <i class="bi bi-circle"></i>
-                                <p>Lorem ipsum dolor sit amet.</p>
+                                <p class="text">Lorem ipsum dolor sit amet.</p>
                             </div>
                             <div>
                                 <div class="subtitle">Resumen de los Booking</div>
-                                <p>Lorem ipsum dolor sit.</p>
+                                <p class="text">Lorem ipsum dolor sit.</p>
                             </div>  
                         </div> <br> 
 
                         <div class="col-12 mt-4 container-invoices">
                             <div class="title">Invoices</div>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum quis, et labore esse perferendis recusandae ea at quaerat, amet reprehenderit incidunt ipsa sint, aperiam fuga assumenda odit laborum aliquid adipisci.</p>
+                                <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum quis, et labore esse perferendis recusandae ea at quaerat, amet reprehenderit incidunt ipsa sint, aperiam fuga assumenda odit laborum aliquid adipisci.</p>
                                 <div>
                                     <button type="button" class="btn btn-info">download</button>
-                                </div>
-                               
+                                </div>             
+                        </div>  
+
+                        <div class="col-12 mt-4 container-package">
+                           <div class="title">Paquete de subscripciones</div>
+                           <div>
+                               <div class="b"> <i class ="fa fa-circle mt-4 mb-4 "></i></div>
+                               <div> <i class ="fa fa-circle mb-4"></i></div>
+                           </div>
                         </div>
+                        
+                        <div class="col-10 container-notifications mt-4">
+                            <div class=" title">Notificaciones</div>
+                           
+                                <div class="subtitle-superior mb-4">Pages</div>
+                                <div class="dropdown">
+                                    <button class="dropbtn">General</button>
+                                    <div class="dropdown-content">
+                                    <a href="#">Booking</a>
+                                    <a href="#">Payment</a>
+                                    <a href="#">Order Status</a>
+                                    </div>
+                                </div>
+                            <div>
+                                    <div class="subtitle mb-2 mt-4">Ajustes</div>
+                            </div>
+                             
+                        </div> <br> 
+
+                        <div class="col-10 container-settings mt-4">
+                            <div class=" title">Ajustes Generales</div>
+                            <div>
+                                <div class="subtitle-superior">Pages</div>
+                              
+                            </div>
+                            <div>
+                                <div class="subtitle mt-2 mt-2">Email's</div>
+                              
+                            </div>
+                            <div>
+                                <div class="subtitle mt-2">Ventas de los comercios</div>
+                              
+                            </div>
+                            <div>
+                                <div class="subtitle mt-2">Resumen de venta de los comercios</div>
+                              
+                            </div>
+                            <div>
+                                <div class="subtitle mt-2">Resumen de los Booking</div>
+
+                            </div>  
+                        </div> <br> 
 
                     </div>
                 </div>
             </div>
+        </div>  <!-- row principal -->
+    </div> <!-- Container principal-->
+    <!-- reviews user Info Cocina -->
+    
+    <div class="container">
+        <div class="row">
+           
+                <div class="col-12 mt-4 container-reviews">
+                    <div class="title">Reviews</div>
+                    <div>
+                        <div> <i class ="fa fa-circle mt-4 mb-4 "></i></div>
+                        <div> <i class ="fa fa-circle mb-4 "></i></div>
+                        <div> <i class ="fa fa-circle mb-4 "></i></div>
+                    </div>
+                 </div> <br>
 
+                <div class="col-6 mt-4 container-user">
+                    <div class="title">Users</div>  
+                            <div class="dropdown">
+                                <button class="dropbtn">Adminds</button>
+                                <div class="dropdown-content">
+                                <a href="#">Staf</a>
+                                </div>
+                            </div>
+                </div> <br>
+                <div class="col-10 mt-4 container-infoCocina">
+                    <div class="title">Informacion Cocina</div>
+                    <div class="subtitle-superior">Tipo de cocina</div>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati sed ipsam error hic totam quas odio neque debitis aliquid quidem culpa laudantium, facilis molestiae labore nemo ipsum dignissimos recusandae sequi.</p>
+                </div>
             
-            <div class="col-4 offset-1 p-0 mt-4 ">
-                <div class="container-fuid">
-                    <div class="row">
-                        <div class="col-10 container-reports">
-                            <div class=" title">Reportes</div>
-                            <div>
-                                <div class="subtitle-superior">Comerciantes registrados</div>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                            <div>
-                                <div class="subtitle ">Pagos a comercios</div>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                            <div>
-                                <div class="subtitle">Ventas de los comercios</div>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                            <div>
-                                <div class="subtitle">Resumen de venta de los comercios</div>
-                                <i class="bi bi-circle"></i>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                            <div>
-                                <div class="subtitle">Resumen de los Booking</div>
-                                <p>Lorem ipsum dolor sit.</p>
-                            </div>  
-                        </div> <br> 
-
-                        <div class="col-12 mt-4 container-invoices">
-                            <div class="title">Invoices</div>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum quis, et labore esse perferendis recusandae ea at quaerat, amet reprehenderit incidunt ipsa sint, aperiam fuga assumenda odit laborum aliquid adipisci.</p>
-                                <div>
-                                    <button type="button" class="btn btn-info">download</button>
-                                </div>
-                               
-                        </div>
-
-                    </div>
-                </div>
-            </div>
             
         </div>
-
     </div>
+
+   
+
+
+
 </main>
 </body>
 </html> 

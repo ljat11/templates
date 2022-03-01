@@ -62,7 +62,7 @@ main{
     height: 100%;
     width: 160px;
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 0;  /* Stay on top */
+    z-index: 1;  /* Stay on top */
     top:0;    /* top: 68.8px; */
     left: 0;
     background-color: #333;
@@ -79,7 +79,7 @@ main{
 .sideNav a:hover{
     color: var(--user);
 }
-div.container-payment, .container-orders, .container-comms, .container-reports, .container-invoices{
+div.container-payment, .container-orders, .container-comms, .container-crono, .container-reports, .container-invoices, .container-package, .container-settings, .container-notifications, .container-reviews, .container-user, .container-infoCocina{
     background-color:var(--gris-neutral100);
     border-radius: 10px;
 }
@@ -150,14 +150,15 @@ p.text{
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
   .btn {
-    display:block;
+    /* display:block;
     float: right;
     border: 2px solid black;
     background-color: white;
     color: black;
     padding: 14px 28px;
     font-size: 16px;
-    cursor: pointer;
+    cursor: pointer;  */
+    margin: 10px;
   }
   
   /* Green */
