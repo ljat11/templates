@@ -75,7 +75,7 @@ main{
 .sideNav a:hover{
     color: var(--user);
 }
-div.container-payment, .container-orders, .container-comms, .container-reports, .container-invoices, .container-delivery, .container-package, .container-settings, .container-notifications, .container-reviews, .container-user, .container-infoCocina{
+div.container-payment, .container-orders, .container-comms, .container-reports, .container-invoices, .container-delivery, .container-package, .container-settings,.container-cocina, .container-notifications, .container-reviews, .container-user, .container-booking, .container-infoCocina{
     background-color:var(--gris-neutral100);
     border-radius: 10px;
 }
