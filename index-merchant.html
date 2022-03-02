@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordering mechant</title>
+    
+    <link rel="stylesheet" href="/ordering/css/style-merchant.css">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500;900&display=swap"
+    rel="stylesheet">
+    <!-- bootstrap5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/19d60773f0.js" crossorigin="anonymous"></script>
+    <Script src="ordering/js/main-merchant.js"></Script>
+</head>
+<body>
+        <header>
+            <nav class="topnav" id="topNavClick">
+                    <a class='active' href="">Merchant</a>
+                <a href="javascript:void(0);" class="icon" onclick="topNavFunction()"> 
+                    <i class="fa fa-bars"></i></a>
+             </nav>
+        </header>
+        
+            <!-- SideNav -->
+            <nav class="sideNav">
+                <a href="">Payment</a>
+                <a href="">Ordenes</a>
+                <a href="">Comms</a>
+                <a href="">Reportes</a>
+                <a href="">Invoices</a>
+                <a href="">Paquetes de subscripciones</a>
+                <a href="">CronoJobs</a>
+                <a href="">Notificaciones</a>
+                <a href="">Reviews</a>
+                <a href="">Ajustes Generales</a>
+                <a href="">Users</a>
+                <a href="">Informacion de cocinas</a>
+        </nav>
+    <main>
+    <div class="container">
+                                        <!-- CRUD -->
+                                        
+                                        <!-- CRUD -->
+        <div class="row">
+            <div class="col-5 p-0 mt-4">
+                <div class="container-payment">
+                    <div class="title">Payment</div>
+                    <div class="subtitle-superior">Payment Methods</div>
+                    <div class="dropdown m-4">
+                        <button class="dropbtn">Seleccion</button>
+                        <div class="dropdown-content">
+                        <a href="#">Manejo de credit card</a>
+                        <a href="#">Billetera</a>
+                        <a href="#">Authorize.net</a>
+                        <a href="#">Auth.net</a>
+                        <a href="#">Culqui</a>
+                        <a href="#">Stripe</a>
+                        </div>
+                    </div>
+                    
+                    </div><br>
+
+                <div class="container-reports">
+                    <div class="title">Reportes</div>
+                        <div>
+                            <div class="subtitle-superior">Ventas</div>
+                            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea pariatur amet dolorem.</p>
+                        </div>
+                        
+                        <div>
+                            <div class="subtitle">Resumen Ventas</div>
+                            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea pariatur amet dolorem.</p>
+                        </div>
+                        <div>
+                            <div class="subtitle">Booking</div>
+                            <p class="text">Lorem ipsum dolor sit amet.</p>
+                        </div> 
+                        <div>
+                            <button type="button" class="btn btn-info">download</button>
+                        </div> 
+                </div> <br>
+
+                <div class="container-notifications">
+                    <div class="title">Notificaciones</div>  
+                            <div>
+                                <div> <i class ="fa fa-circle p-2 mt-4 mb-4 "></i></div>
+                                <div> <i class ="fa fa-circle p-2 mb-4 "></i></div>
+                                <div> <i class ="fa fa-circle p-2 mb-4 "></i></div>
+                            </div>
+                </div> <br>
+
+                <div class="container-orders">
+                    <div class="title">Ordenes</div>  
+                            <div>
+                                <div class="subtitle-superior">Todas las ordenes</div>
+                            </div>
+                            <div>
+                                <div class="subtitle mt-2">estatus de Ordenes</div>
+                                <div class="dropdown m-4">
+                                    <button class="dropbtn">Localizador</button>
+                                    <div class="dropdown-content">
+                                        <a href="#">Aceptar</a>
+                                        <a href="#">Rechazar</a>
+                                    </div>
+                                </div>
+                                <div class="subtitle mt-2">estatus de Ordenes</div>
+                             </div> 
+                </div> <br>
+            <!-- lado derecho de columns -->
+            <div class="col-6 offset-1 p-0 mt-4 ">
+                <div class="container-fuid">
+                    <div class="row">
+
+                            <div class="col-10 container-reviews">
+                                <div class="title">Reviews</div>
+                        <div>
+                            <div> <i class ="fa fa-circle mt-4 mb-4 "></i></div>
+                            <div> <i class ="fa fa-circle mb-4 "></i></div>
+                            <div> <i class ="fa fa-circle mb-4 "></i></div>
+                        </div>  
+                            </div> <br> 
+
+                        <div class="col-12 mt-4 container-invoices">
+                            <div class="title">Invoices</div>
+                                <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum quis, et labore esse perferendis recusandae ea at quaerat, amet reprehenderit incidunt ipsa sint, aperiam fuga assumenda odit laborum aliquid adipisci.</p>
+                                <div>
+                                    <button type="button" class="btn btn-info">download</button>
+                                </div>             
+                        </div> <br> 
+
+                        <div class="col-12 mt-4 container-delivery">
+                        <div class="title">Delivery settings</div>
+                        <div>
+                            <div class="b"> <i class ="fa fa-circle mt-4 mb-4 "></i></div>
+                            <div> <i class ="fa fa-circle mb-4"></i></div>
+                        </div>
+                        </div>
+                        
+                        <div class="col-10 container-notifications mt-4">
+                            <div class=" title"></div>
+                        
+                                <div class="subtitle-superior mb-4">Pages</div>
+                                <div class="dropdown">
+                                    <button class="dropbtn">General</button>
+                                    <div class="dropdown-content">
+                                    <a href="#">Booking</a>
+                                    <a href="#">Payment</a>
+                                    <a href="#">Order Status</a>
+                                    </div>
+                                </div>
+                            <div>
+                                    <div class="subtitle mb-2 mt-4">Ajustes</div>
+                            </div>
+                        </div>  
+
+                        <div class="col-10 container-settings mt-4">
+                            <div class=" title">Ajustes Generales</div>
+                            <div>
+                                <div class="subtitle-superior">Pages</div>
+                            
+                            </div>
+                            <div>
+                                <div class="subtitle mt-2 mt-2">Email's</div>
+                            
+                            </div>
+                            <div>
+                                <div class="subtitle mt-2">Ventas de los comercios</div>
+                            
+                            </div>
+                            <div>
+                                <div class="subtitle mt-2">Resumen de venta de los comercios</div>
+                            
+                            </div>
+                            <div>
+                                <div class="subtitle mt-2">Resumen de los Booking</div>
+
+                            </div>  
+                        </div>  
+
+                    </div>
+                </div>
+            </div>
+        </div>  <!-- row principal -->
+    </div> <!-- Container principal-->
+    <!-- reviews user Info Cocina -->
+
+    <div class="container">
+        <div class="row">
+        
+                <div class="col-12 mt-4 container-reviews">
+                    <div class="title">Reviews</div>
+                    <div>
+                        <div> <i class ="fa fa-circle mt-4 mb-4 "></i></div>
+                        <div> <i class ="fa fa-circle mb-4 "></i></div>
+                        <div> <i class ="fa fa-circle mb-4 "></i></div>
+                    </div>
+                </div> 
+
+                <div class="col-6 mt-4 container-user">
+                    <div class="title">Users</div>  
+                            <div class="dropdown">
+                                <button class="dropbtn">Adminds</button>
+                                <div class="dropdown-content">
+                                <a href="#">Staf</a>
+                                </div>
+                            </div>
+                </div> <br>
+                <div class="col-10 mt-4 container-infoCocina">
+                    <div class="title">Informacion Cocina</div>
+                    <div class="subtitle-superior">Tipo de cocina</div>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati sed ipsam error hic totam quas odio neque debitis aliquid quidem culpa laudantium, facilis molestiae labore nemo ipsum dignissimos recusandae sequi.</p>
+                </div>
+            
+            
+        </div>
+    </div>
+
+
+
+
+
+    </main>   
+</body>
+</html>
