@@ -1,0 +1,80 @@
+/* 1. Posicionamiento
+2. Modelo caja (Box model)
+3. Tipografía
+4. Visuales
+5. Otros */ 
+:root{
+   
+    --fondologin:#37415177; 
+    --texto: #374151;
+    --gris-neutral400: #9CA3AF;
+    --gris-neutral300: #D1D5DB;
+    --gris-neutral100: #F3F4F6;
+    --blanco-neutral50: #F9FAFB;
+    --titulos:#75E3EA;
+    --seleccion: #ECFEFF;
+    --rojo: #E30613;
+    --save: #1cca0080;
+    --edit: #e3a5068c;
+    --delete: #e306138c;
+    --download: #1db5beb3;
+    --user: #f81c85b3;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif ;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #f75e34a2; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, #F75D34, #1db5beb3);
+}
+img{
+
+    height: 80vh;
+    width: 80vh;
+    filter: brightness(0.3);
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    /* Position and center the image to scale nicely on all screens */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* position: relative;  */
+}
+
+
+.container-400{
+    color:#F3F4F6;
+    text-align:center;
+    width: 100%;
+    max-width: 480px;
+    background: rgba(56, 66, 82, 0.467);
+    box-shadow: 0 15px 25px rgb(0, 0, 0, 0.5);
+    border-radius:10px;
+    line-height: 1.7rem;
+    padding:20px;
+    position: absolute;
+    
+}
+.btn-home{
+    display:inline-block;
+    margin-top:15px;
+    text-decoration:none;
+    background:#F75D34;
+    color:white;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.btn-home:hover{
+    
+    opacity: 0.8;
+}
