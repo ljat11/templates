@@ -47,7 +47,23 @@ h2{
                  -10px 10px 0 rgb(0, 0, 0, 0.5),
                  -15px 15px 0 rgb(0, 0, 0, 0.5);
 }
-h2 .zero{
+h2.text{
+    color: var(--gris-neutral300);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10em;
+    text-shadow: -25px 25px 40px rgb(0, 0, 0, 1.0),
+                  -5px 5px 0 rgb(0, 0, 0, 0.5),
+                 -10px 10px 0 rgb(0, 0, 0, 0.5),
+                 -15px 15px 0 rgb(0, 0, 0, 0.5);
+    padding: 20px;        
+}
+img{
+    width: 280px;
+    padding-right: 25px ;
+}
+/* h2 .zero{
     position: relative;
     display: inline-block;
     width: 200px;
@@ -56,8 +72,8 @@ h2 .zero{
     border-radius: 50%;
     margin: 0 15px;
     box-shadow: -25px 25px 40px rgb(0, 0, 0, 1.0);
-}
-h2 .zero:before{
+} */
+/* h2 .zero:before{
     content: '';
     position: absolute ;
     top: 50%;
@@ -90,4 +106,4 @@ h2 .zero::after{
         transform: translate(-50%, -50%) rotate(360deg);
     }
     
-}
+} */
